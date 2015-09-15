@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="clock">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>TickTock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.0.x" src="angular.js" data-semver="1.0.7"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <h1 class="text-center">Digital Clock</h1>
+    <div class="alert alert-info text-center clock">{{theclock}}</div>
+    
+    <div digital-clock></div>
+  </body>
+
+</html>
